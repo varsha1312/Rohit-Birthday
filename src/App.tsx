@@ -17,7 +17,7 @@ function App() {
   const [typedText, setTypedText] = useState('');
   const [showMessage, setShowMessage] = useState(false);
   const [giftOpened, setGiftOpened] = useState(false);
-  const [musicPlaying, setMusicPlaying] = useState(false);
+  
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [candlesLit, setCandlesLit] = useState(false);
   const [timeUntilBirthday, setTimeUntilBirthday] = useState('');
