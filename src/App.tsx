@@ -356,7 +356,7 @@ par jab aate hain na, pura mood cache clear ho jaata hai aur system fresh run ka
       <section id="memories" className="py-20 px-6 relative">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-pacifico text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-pink-200 mb-6" style={{lineHeight: "85px"}}>
-            you look Elegant 📸
+            You Look Elegant 📸
           </h2>
           <p className="text-xl text-white/85 font-dancing mb-12 max-w-2xl mx-auto">
             Every adventure, every laugh, every milestone - these moments tell the beautiful story of who you are
