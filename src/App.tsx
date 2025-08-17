@@ -17,6 +17,7 @@ function App() {
   const [typedText, setTypedText] = useState('');
   const [showMessage, setShowMessage] = useState(false);
   const [giftOpened, setGiftOpened] = useState(false);
+  const [musicPlaying, setMusicPlaying] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [candlesLit, setCandlesLit] = useState(false);
   const [timeUntilBirthday, setTimeUntilBirthday] = useState('');
@@ -252,8 +253,7 @@ You’re more than a friend — you’re the Wi-Fi to my internet, the cheese to
   <div className="md:w-1/2 w-full">
     <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 bg-black">
       <video
-        src={videoFile} // 🔁 Replace with your actual video URL
-        controls
+        src={videoFile} 
         autoPlay
         muted
         loop
